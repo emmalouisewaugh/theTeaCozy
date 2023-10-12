@@ -8,9 +8,132 @@
 body {
     color: seashell;
     background-color: black;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
 }
 /* HEADER */
 .header {
-    display: inline-flex;
+    display: flex;
     height: 69px;
+    border-bottom: solid 1px seashell;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+padding-left: 10px;
+height: 50px
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+/* OOUR MISSION */
+ .ourMission {
+    background-image: url(./images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+ }
+
+ .missionText {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+/* TEA OF THE MONTH */
+
+.featuredTea {
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.featuredText {
+    text-align: center;
+    padding: 15px;
+    line-height: 50px;
+    margin-top: 70px;
+}
+
+.featuredItem {
+    text-align: center;
+    padding: 10px;
+}
+
+.featuredContent {
+    display:inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.featuredImg {
+    height: 200px;
+    width: 300px;
+}
+
+/* LOCATION */
+
+.locations {
+    width: 1200px;
+    background-image: url(./images/img-locations-background.jpg);
+    height: 500px;
+    margin-top: 50px;
+    background-repeat: round;
+    margin: 0 auto;
+}
+
+.locationsTitle {
+    text-align: center;
+    padding: 70px 10px 15px 10px;
+}
+
+.locationStores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locationAddress {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 20px 0 20px;
+}
+
+/* FOOTER */
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 200px;
+}
+
+.copyright {
+    margin: 10px;
+    text-align: left;
+
 }
